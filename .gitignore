@@ -1,0 +1,12 @@
+Build artifacts
+build/
+*.o
+*.a
+*.so
+hft_cache
+IDE files
+.vscode/
+.idea/
+*.swp
+Misc
+*.log
