@@ -44,6 +44,13 @@ set(SOURCES
     src/memory_manager.cpp
     src/metrics.cpp
     src/error_handler.cpp
+    src/persistent_cache.cpp
+    src/security_manager.cpp
+    src/advanced_operations.cpp
+    src/multi_level_cache.cpp
+    src/bloom_filter.cpp
+    src/skip_list.cpp
+    src/b_tree.cpp
 )
 
 # Header files
@@ -58,6 +65,15 @@ set(HEADERS
     include/lockfree_queue.hpp
     include/metrics.hpp
     include/error_handler.hpp
+    include/persistent_cache.hpp
+    include/security_manager.hpp
+    include/advanced_operations.hpp
+    include/multi_level_cache.hpp
+    include/bloom_filter.hpp
+    include/skip_list.hpp
+    include/b_tree.hpp
+    include/simd_operations.hpp
+    include/advanced_memory_pool.hpp
 )
 
 # Main executable
